@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testinomials",
+  "info": {
+    "singularName": "testinomial",
+    "pluralName": "testinomials",
+    "displayName": "Testinomial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
